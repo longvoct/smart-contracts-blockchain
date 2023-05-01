@@ -5,7 +5,7 @@ npx hardhat run --network sepolia  scripts/deploy.js
 
 ### Ý nghĩa của test/Lock.js
 
-- Tệp tin "test/Lock.js" là một tệp tin kiểm tra (test file) và được sử dụng để kiểm tra tính đúng đắn của các hàm và chức năng được định nghĩa trong hợp đồng thông minh. Tệp tin này sẽ chạy khi bạn chạy lệnh ```javascript npx hardhat test ``` hoặc ```javascript npx hardhat test --network sepolia ``` để chạy các bài kiểm tra trên mạng lưới Sepolia.
+- Tệp tin "test/Lock.js" là một tệp tin kiểm tra (test file) và được sử dụng để kiểm tra tính đúng đắn của các hàm và chức năng được định nghĩa trong hợp đồng thông minh. Tệp tin này sẽ chạy khi bạn chạy lệnh ``` npx hardhat test ``` hoặc ``` npx hardhat test --network sepolia ``` để chạy các bài kiểm tra trên mạng lưới Sepolia.
 
 - Trong quá trình phát triển dự án, bạn nên tạo các tệp tin kiểm tra để đảm bảo tính đúng đắn của hợp đồng thông minh. Các tệp tin kiểm tra này giúp bạn xác định các lỗi và sửa chúng trước khi triển khai hợp đồng lên mạng lưới blockchain. Điều này giúp bạn tránh những rủi ro phát sinh sau này, khi giao dịch đã được thực hiện trên mạng lưới blockchain.
 
