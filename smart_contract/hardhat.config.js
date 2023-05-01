@@ -1,5 +1,7 @@
 require("@nomiclabs/hardhat-waffle");
 
+// Cấu hình các mạng Ethereum muốn sử dụng (VD: mạng thử nghiệm, mạng chính...)
+
 module.exports = {
   solidity: "0.8.0",
   networks: {

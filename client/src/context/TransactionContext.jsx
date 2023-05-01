@@ -41,7 +41,6 @@ export const TransactionsProvider = ({ children }) => {
     try {
       if (ethereum) {
         const transactionsContract = createEthereumContract();
-
         const availableTransactions =
           await transactionsContract.getAllTransactions();
 
