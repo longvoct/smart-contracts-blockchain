@@ -11,16 +11,18 @@ const NavBar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <h1>
-      <nav className="w-full flex justify-between items-center p-4 md:px-20">
+      <nav className="w-full flex justify-between items-center p-4 md:px-20 ">
         <div className="md:flex-[0.5] flex-initial justify-center items-center">
           <img src={logo} alt="logo" className="w-32 cursor-pointer" />
         </div>
         <ul className="text-white md:flex hidden list-none flex-row justify-betweem items-center flex-initial">
-          {["Market", "Exchange", "Tutorials", "Wallets"].map((item, index) => (
-            <NavbarItem key={item + index} title={item} />
-          ))}
-          <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd] ">
-            Login
+          {["Docs", "Services", "About", "Blog", "Contact"].map(
+            (item, index) => (
+              <NavbarItem key={item + index} title={item} />
+            )
+          )}
+          <li className="bg-[#f6862a] py-3 px-7 mx-4 rounded-full cursor-pointer transition-all hover:bg-[#fe7c11] ">
+            Connect Wallet
           </li>
         </ul>
         <div className="md:hidden flex relative">
